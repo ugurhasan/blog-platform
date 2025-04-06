@@ -1,6 +1,5 @@
 ---
 
-## 🛠 General Requirements 
 
 | Tool       | Purpose                                 | Side      |
 |------------|------------------------------------------|-----------|
@@ -21,11 +20,11 @@
    - (Optional) Create a new user and password, or use the default `postgres` user.
 3. Update your `application.properties` file in `backend/src/main/resources/`:
 
-properties
+```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/student
 spring.datasource.username=postgres
 spring.datasource.password=your_password
-
+```
 
 ❗ If PostgreSQL is not installed or configured properly, the Spring Boot backend will fail to start, usually with a "connection refused" or "database not found" error.
 
