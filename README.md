@@ -11,7 +11,7 @@
 ---
 
 
-## ⚙️ PostgreSQL Setup ##
+## ⚙️ PostgreSQL Setup 
 
 1. Download & install PostgreSQL from [https://www.postgresql.org/download](https://www.postgresql.org/download).
 2. Open **pgAdmin** or terminal and do the following:
@@ -25,10 +25,10 @@ spring.datasource.username=postgres
 spring.datasource.password=your_password
 ```
 
-❗ If PostgreSQL is not installed or configured properly, the Spring Boot backend will fail to start, usually with a "connection refused" or "database not found" error.
+❗ **If PostgreSQL is not installed or configured properly, the Spring Boot backend will fail to start, usually with a "connection refused" or "database not found" error.**
 
 
-How to run apps?
+## How to run apps?
 
 There are 2 different repositories, main and backend. In main repo, you will find Next.js fronend. After clone you will see files. After cloning complete, please make another folder (e.g backend), clone app again there and switch branch to backend.(git checkout backend
 )
