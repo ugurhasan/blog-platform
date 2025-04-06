@@ -1,10 +1,10 @@
 General Requirements:
 
-Node.js --	Run the Next.js frontend --	Frontend
-npm --	Install dependencies for Next.js --	Frontend
-Java 17/17+ --	Run the Spring Boot backend --	Backend
-PostgreSQL --	Stores users, blog posts, and other data --	Backend
-Git --	Clone the repository --	Both
+[Node.js --	Run the Next.js frontend --	Frontend]
+[npm --	Install dependencies for Next.js --	Frontend]
+[Java 17/17+ --	Run the Spring Boot backend --	Backend]
+[PostgreSQL --	Stores users, blog posts, and other data --	Backend]
+[Git --	Clone the repository --	Both]
 
 
 ⚙️ PostgreSQL Setup
