@@ -13,19 +13,19 @@
 ---
 
 
-⚙️ PostgreSQL Setup
-1. Install PostgreSQL from https://www.postgresql.org/download/
+## ⚙️ PostgreSQL Setup
 
-2. After installation:
-Open pgAdmin or connect via terminal.
-Create a new database, student
-Optionally create a new user with a password or use default postgres user.
+1. Download & install PostgreSQL from [https://www.postgresql.org/download](https://www.postgresql.org/download).
+2. Open **pgAdmin** or terminal and do the following:
+   - Create a new database called `student`.
+   - (Optional) Create a new user and password, or use the default `postgres` user.
+3. Update your `application.properties` file in `backend/src/main/resources/`:
 
-3. Update your application.properties or .env file with your DB config:
-
+```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/student
 spring.datasource.username=postgres
 spring.datasource.password=your_password
+```
 
 ❗ If PostgreSQL is not installed or configured properly, the Spring Boot backend will fail to start, usually with a "connection refused" or "database not found" error.
 
