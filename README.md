@@ -10,6 +10,7 @@
 
 ---
 
+(Try to use latest versions of Node.js, My current version of Node.js is v22.11.0)
 
 ## ⚙️ PostgreSQL Setup 
 
