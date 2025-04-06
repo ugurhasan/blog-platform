@@ -1,6 +1,6 @@
 ---
 
-## 🛠 General Requirements
+## 🛠 General Requirements ##
 
 | Tool       | Purpose                                 | Side      |
 |------------|------------------------------------------|-----------|
@@ -13,7 +13,7 @@
 ---
 
 
-## ⚙️ PostgreSQL Setup
+## ⚙️ PostgreSQL Setup ##
 
 1. Download & install PostgreSQL from [https://www.postgresql.org/download](https://www.postgresql.org/download).
 2. Open **pgAdmin** or terminal and do the following:
